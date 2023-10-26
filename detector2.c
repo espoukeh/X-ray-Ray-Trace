@@ -201,7 +201,7 @@ int main(int argc, char *argv[])
                 //if (E >= 6 && E <= 9) {
 		if (E >= Energy_min && E <= Energy_max) {
 
-			//fprintf(stderr,"E = %g\n",E); // TEST
+			//fprintf(stderr,"E = %g\n",E);  TEST
                         Vector point;
                         myRay.v = unit(myRay.v); //check that direction is a unit vector
 
@@ -219,7 +219,7 @@ int main(int argc, char *argv[])
 			myRay.pos = add(myRay.pos,mult(myRay.v,distance));
                   	myRay.l = myRay.l + distance;
 
-                        //calculate where myRay.pos is with respect to P0 & basis vectors
+                        //calculate where myRay.pos is with respect to P0 & basis vectors 
                         //B1=(P1-P0), B2=(P2-P0).
                         point = sub(myRay.pos, P0);
                         point_B1 = dot(point,B1unitV);
