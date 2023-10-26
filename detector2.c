@@ -201,7 +201,7 @@ int main(int argc, char *argv[])
                 //if (E >= 6 && E <= 9) {
 		if (E >= Energy_min && E <= Energy_max) {
 
-			//fprintf(stderr,"E = %g\n",E);  TEST
+			//fprintf(stderr,"E = %g\n",E);
                         Vector point;
                         myRay.v = unit(myRay.v); //check that direction is a unit vector
 
