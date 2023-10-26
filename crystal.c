@@ -323,7 +323,7 @@ int main(int argc, char *argv[])
 				//define ellipse
 				//elip_a = Magkp/2;
 				//elip_c = MagkG/2;
-				//elip_b = sqrt(pow(elip_a,2) - pow(elip_c,2)); // only if p = 1 !!!
+				//elip_b = sqrt(pow(elip_a,2) - pow(elip_c,2)); // only if p = 1 !!! TEST
 								
 
 				// TODO: Here we need to rotate k1 and k2 in the primed system about the z-axis randomly by 2Pi
