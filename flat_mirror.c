@@ -177,6 +177,7 @@ int main(int argc, char *argv[])
 			fprintf(stderr,"Warning Ray %lu is furthern then the mirror's surface"
 			 " back propagating to mirror.\n", myRay.ray);
 		}
+		if (dot(myRay.v,Normal) > 0.0) continue;
 		myRay.pos = add(myRay.pos,mult(myRay.v,distance));
 		myRay.l = myRay.l + distance;
 
